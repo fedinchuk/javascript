@@ -1,12 +1,12 @@
-function myFn(a, b) {
-  let c;
-  a = a + 1;
-  c = a + b;
-  return c;
+const personOne = {
+  name: 'Vasyl',
+  age: 21
 }
 
-console.log(myFn(10, 3));
+function increasePersonAge(person) {
+  person.age += 1
+  return person
+}
 
-function myFb() {}
-
-console.log(myFb());
+increasePersonAge(personOne)
+console.log(personOne.age)
