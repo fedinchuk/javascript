@@ -1,11 +1,14 @@
-const person = {
-  name: 'Bob',
-  age: 25
+let a = 5;
+let b = 3;
+
+function sum(a, b) {
+  const c = a + b;
+  console.log(c);
 }
 
-const person2 = JSON.parse(JSON.stringify(person))
+sum(a, b);
 
-person2.name = 'Alise'
+a = 8;
+b = 12;
 
-console.log(person2.name)
-console.log(person.name)
+sum(a, b);
