@@ -6,3 +6,7 @@ function myFn(a, b) {
 }
 
 console.log(myFn(10, 3));
+
+function myFb() {}
+
+console.log(myFb());
