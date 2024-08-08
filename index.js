@@ -4,9 +4,11 @@ const personOne = {
 }
 
 function increasePersonAge(person) {
-  person.age += 1
-  return person
+  const updatedPerson = Object.assign({}, person)
+  updatedPerson.age += 1
+  return updatedPerson
 }
 
-increasePersonAge(personOne)
+const updatedPersonOne = increasePersonAge(personOne)
 console.log(personOne.age)
+console.log(updatedPersonOne.age)
