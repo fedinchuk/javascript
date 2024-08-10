@@ -1,7 +1,10 @@
-function printMyName() {
-  console.log('Vasyl')
+const a = 5
+
+function myFn() {
+  function innerFn() {
+    console.log(a)
+  }
+  innerFn()
 }
 
-console.log('Start')
-
-setTimeout(printMyName, 2000);
+myFn()
