@@ -1,11 +1,16 @@
-const button = {
+const buttonInfo = {
+  text: "Buy",
+};
+
+const buttonStyle = {
+  color: "yellow",
   width: 200,
-  text: 'Buy'
+  height: 300,
+};
+
+const button = {
+  ...buttonInfo,
+  ...buttonStyle
 }
 
-const redButton = {
-  ...button,
-  color: 'red'
-}
-
-console.table(redButton)
+console.table(button)
