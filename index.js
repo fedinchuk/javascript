@@ -1,9 +1,11 @@
-let a, b
+const button = {
+  width: 200,
+  text: 'Buy'
+}
 
-a = 0
-a += 10
-b = a
+const redButton = {
+  ...button,
+  color: 'red'
+}
 
-let c = a + b
-
-console.log(c)
+console.table(redButton)
