@@ -1,16 +1,8 @@
-const buttonInfo = {
-  text: "Buy",
-};
-
-const buttonStyle = {
-  color: "yellow",
-  width: 200,
-  height: 300,
-};
-
-const button = {
-  ...buttonInfo,
-  ...buttonStyle
+const myFunction = function (a, b) {
+  let c
+  a = a + 1
+  c = a + b
+  return c
 }
 
-console.table(button)
+console.log(myFunction(5, 3))
