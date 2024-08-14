@@ -1,6 +1,3 @@
-const myF = (a) => {
-  b = a + 3;
-  return b;
-};
+const myF = (a, b) => a + b
 
-console.log(myF(3));
+console.log(myF(3, 4));
