@@ -1,4 +1,4 @@
-const mulByFactor = function (value, multiplier = 3) {
+const mulByFactor = (value, multiplier = 3) => {
   return value * multiplier;
 };
 
