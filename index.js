@@ -1,11 +1,12 @@
-"abc";
+function myFn(a) {
+  console.log(a);
+}
 
-a = a + 3;
+const b = true;
+let c = 10;
 
-c = a + b;
-
-d = "Good " + "Evening";
-
-myFunction(c, d);
-
-console.log("Hey");
+console.log(myFn(2 + 3));
+console.log(myFn(b));
+console.log(myFn(c = c + 1));
+console.log(myFn(c = c + 1;));
+console.log(myFn(let d));
