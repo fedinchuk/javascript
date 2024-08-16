@@ -1,12 +1,11 @@
-const fnWithError = () => {
-  throw new Error("Some error");
-};
+let a;
 
-try {
-  fnWithError()
-} catch (error) {
-  console.error(error)
-  console.log(error.message)
+const b = 5;
+
+if (a > b) {
+  console.log("a is larger");
 }
 
-console.log("Continue...");
+for (let i = 0; i < 5; i++) {
+    console.log(i);
+}
