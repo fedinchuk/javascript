@@ -1,11 +1,11 @@
-let a;
+"abc";
 
-const b = 5;
+a = a + 3;
 
-if (a > b) {
-  console.log("a is larger");
-}
+c = a + b;
 
-for (let i = 0; i < 5; i++) {
-    console.log(i);
-}
+d = "Good " + "Evening";
+
+myFunction(c, d);
+
+console.log("Hey");
