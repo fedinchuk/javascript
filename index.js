@@ -1,6 +1,11 @@
-const mulByFactor = (value, multiplier = 3) => {
-  return value * multiplier;
+const newPost = (post, addedAt = Date()) => ({
+  ...post,
+  addedAt,
+});
+
+const firstPost = {
+  id: 1,
+  author: "Vasyl",
 };
 
-console.log(mulByFactor(10, 2));
-console.log(mulByFactor(5));
+console.log(newPost(firstPost));
