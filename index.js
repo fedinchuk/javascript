@@ -1,13 +1,7 @@
-const newPost = (post, addedAt = Date()) => {
-  return {
-    ...post,
-    addedAt,
-  }
+const fnWithError = () => {
+  throw new Error("Some error");
 };
 
-const firstPost = {
-  id: 1,
-  author: "Vasyl",
-};
+fnWithError();
 
-console.log(newPost(firstPost));
+console.log("Continue...");
