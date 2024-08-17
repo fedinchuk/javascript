@@ -1,5 +1,12 @@
-const myArray = [1, 2, 3];
-console.log(myArray);
+const myObject = {
+  0: 1,
+  1: 2,
+  3: 3,
+  length: 3,
+};
 
-const myArray2 = new Array(1, 2, 3);
-console.log(myArray2);
+console.log(myObject);
+
+const myArray = [1, 2, 3];
+
+console.log(myArray);
