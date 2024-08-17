@@ -1,12 +1,7 @@
-const myObject = {
-  0: 1,
-  1: 2,
-  3: 3,
-  length: 3,
-};
-
-console.log(myObject);
-
-const myArray = [1, 2, 3];
-
+const myArray = [1, true, "a"];
 console.log(myArray);
+
+console.log(myArray[0]);
+console.log(myArray[1]);
+
+console.log(myArray.length);
