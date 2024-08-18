@@ -1,12 +1,10 @@
-const myArray = [1, 2, 3, 4];
+const myArray = [1, 2, 3];
 console.log(myArray);
-console.log(myArray.length);
 
-myArray[2] = "abc";
-console.log(myArray);
-console.log(myArray[2]);
-
-myArray[4] = true;
+myArray.push(4);
 
 console.log(myArray);
-console.log(myArray.length);
+
+myArray.push(true);
+
+console.log(myArray);
