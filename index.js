@@ -1,10 +1,11 @@
 const myArray = [1, 2, 3];
 console.log(myArray);
 
-myArray.push(4);
+myArray.pop();
 
 console.log(myArray);
 
-myArray.push(true);
+const removedElement = myArray.pop();
 
 console.log(myArray);
+console.log(removedElement);
