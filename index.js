@@ -1,10 +1,11 @@
 const myArray = [1, 2, 3];
 console.log(myArray);
 
-myArray.unshift(true);
+myArray.shift();
 
 console.log(myArray);
 
-myArray.unshift("abs");
+const removedElement = myArray.shift();
 
 console.log(myArray);
+console.log(removedElement);
