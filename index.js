@@ -1,8 +1,7 @@
-const myArray = [1, 2, 3, 10];
+const myArray = [1, 2, 3];
 console.log(myArray);
 
-const res = myArray.forEach((el) => console.log(el * 2));
+const newArray = myArray.map((el) => el * 3);
 
-console.log(res)
-
+console.log(newArray);
 console.log(myArray);
