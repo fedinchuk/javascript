@@ -1,7 +1,7 @@
 const myArray = [1, 2, 3];
 console.log(myArray);
 
-const newArray = myArray.map((el) => {
+const newArray = myArray.map(function (el) {
   return el * 3
 });
 
