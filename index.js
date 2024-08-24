@@ -1,11 +1,6 @@
-const userProfile = {
-  name: "Vasyl",
-  commentsQty: 23,
-  hasSignedAgreement: false,
-};
+const fruits = ["Apple", "Banana"];
 
-const { name, commentsQty } = userProfile;
-const { hasSignedAgreement } = userProfile;
+const [fruitOne, fruitTwo] = fruits;
 
-console.log(name);
-console.log(commentsQty);
+console.log(fruitOne);
+console.log(fruitTwo);
