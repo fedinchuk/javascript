@@ -1,6 +1,15 @@
-const fruits = ["Apple", "Banana"];
+const userProfile = {
+  name: "Vasyl",
+  commentsQty: 23,
+  hasSingnedAgreement: false,
+};
 
-const [fruitOne, fruitTwo] = fruits;
+const userInfo = ({ name, commentsQty }) => {
+  if (!commentsQty) {
+    return `User ${name} has co comments`;
+  }
 
-console.log(fruitOne);
-console.log(fruitTwo);
+  return `User ${name} has ${commentsQty} comments`;
+};
+
+console.log(userInfo(userProfile));
