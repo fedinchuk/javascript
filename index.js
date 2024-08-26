@@ -1,15 +1,7 @@
-const userProfile = {
-  name: "Vasyl",
-  commentsQty: 23,
-  hasSingnedAgreement: false,
-};
+let val = 10;
 
-const userInfo = ({ name, commentsQty }) => {
-  if (!commentsQty) {
-    return `User ${name} has co comments`;
-  }
+if (val > 5) {
+  val += 20;
+}
 
-  return `User ${name} has ${commentsQty} comments`;
-};
-
-console.log(userInfo(userProfile));
+console.log(val);
