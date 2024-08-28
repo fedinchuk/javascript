@@ -1,7 +1,9 @@
-const person = {
-  age: 20,
-};
+let val = 10;
 
-if (!person.name) {
-  console.log("Імʼя не вказано");
+if (val < 5) {
+  val = +20;
+} else {
+  val -= 20;
 }
+
+console.log(val);
