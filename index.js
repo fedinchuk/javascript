@@ -1,9 +1,9 @@
-let val = 10;
+const age = 25;
 
-if (val < 5) {
-  val = +20;
+if (age > 18) {
+  console.log("Is adult");
+} else if (age >= 12) {
+  console.log("Is teenager");
 } else {
-  val -= 20;
+  console.log("Is child");
 }
-
-console.log(val);
