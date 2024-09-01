@@ -10,4 +10,4 @@ const sumPositiveNumbers = (a, b) => {
   return console.log(a + b);
 };
 
-sumPositiveNumbers('a', true);
+sumPositiveNumbers(-10, 5);
