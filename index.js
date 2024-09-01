@@ -1,13 +1,13 @@
-const age = 5;
+const sumPositiveNumbers = (a, b) => {
+  if (typeof a !== "number" || typeof b !== "number") {
+    return console.log("One of the arguments is not a number");
+  }
 
-if (age >= 18) {
-  console.log("Is adult");
-}
+  if (a <= 0 || b <= 0) {
+    return console.log("Numbers are not positive");
+  }
 
-if (age >= 12 && age < 18) {
-  console.log("Is teenager");
-}
+  return console.log(a + b);
+};
 
-if (age < 12) {
-  console.log("Is child");
-}
+sumPositiveNumbers('a', true);
