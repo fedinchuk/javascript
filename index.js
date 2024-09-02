@@ -1,13 +1,15 @@
-const sumPositiveNumbers = (a, b) => {
-  if (typeof a !== "number" || typeof b !== "number") {
-    return console.log("One of the arguments is not a number");
-  }
+const month = 2;
 
-  if (a <= 0 || b <= 0) {
-    return console.log("Numbers are not positive");
-  }
-
-  return console.log(a + b);
-};
-
-sumPositiveNumbers('a', true);
+switch (month) {
+  case 12:
+    console.log("Грудень");
+    break;
+  case 1:
+    console.log("Січень");
+    break;
+  case 2:
+    console.log("Лютий");
+    break;
+  default:
+    console.log("Це не зимовий місяць");
+}
