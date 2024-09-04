@@ -1,5 +1,7 @@
-const value = 11
+const value1 = 11
+const value2 = 25
 
-value
-  ? console.log('Умова правдива')
-  : console.log('Умова неправдива')
+value1 && value2
+  ? myFunction1(value1, value2)
+  : myFunction2()
+  
