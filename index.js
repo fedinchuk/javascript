@@ -4,6 +4,6 @@ const myObject = {
   z: "abc",
 };
 
-for (const key in myObject) {
+Object.keys(myObject).forEach((key) => {
   console.log(key, myObject[key]);
-}
+});
