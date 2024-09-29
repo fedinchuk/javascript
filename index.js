@@ -1,5 +1,5 @@
-const myString = "Hey";
+const myArray = [true, 10, 'abc', null]
 
-for (const letter of myString) {
-  console.log(letter);
+for (const element of myArray) {
+  console.log(element)
 }
