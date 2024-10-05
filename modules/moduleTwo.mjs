@@ -1,7 +1,5 @@
-import sum from "./moduleOne.mjs";
+import sumNumbers from "./moduleOne.mjs";
 
-const res1 = sum(10, 2);
-console.log(res1);
+const res = sumNumbers(10, 2);
+console.log(res);
 
-const res2 = sum(5, 10);
-console.log(res2);
