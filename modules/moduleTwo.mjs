@@ -1,4 +1,4 @@
-import { one, two } from "./moduleOne.mjs";
+import { one as oneRenamed, two } from "./moduleOne.mjs";
 
-console.log(one);
+console.log(oneRenamed);
 console.log(two);
