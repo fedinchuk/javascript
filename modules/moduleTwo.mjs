@@ -1,4 +1,4 @@
-import { one as oneRenamed, two } from "./moduleOne.mjs";
+import { sum, mult } from "./moduleOne.mjs";
 
-console.log(oneRenamed);
-console.log(two);
+console.log(sum(10, 2));
+console.log(mult(10, 2));
