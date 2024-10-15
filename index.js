@@ -1,9 +1,10 @@
-let myObject = {
-  x: 10,
-  y: true,
-  z: "abc",
-};
+class Comment {
+  constructor(text) {
+    this.text = text;
+    this.votesQty = 0;
+  }
 
-for (const prop of myObject) {
-  console.log(prop);
+  upvote() {
+    this.votesQty += 1;
+  }
 }
