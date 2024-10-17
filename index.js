@@ -5,6 +5,6 @@ class Comment {
   }
 
   upvote() {
-    this.votesQty += 1;
+    this.votesQty += 2;
   }
 }
