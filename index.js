@@ -5,6 +5,10 @@ class Comment {
   }
 
   upvote() {
-    this.votesQty += 2;
+    this.votesQty += 1;
+  }
+
+  static mergeComments(first, second) {
+    return `${first} ${second}`;
   }
 }
