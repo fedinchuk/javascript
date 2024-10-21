@@ -9,6 +9,6 @@ class Comment {
   }
 
   static mergeComments(first, second) {
-    return `${first} + ${second}`;
+    return `${first} ${second}`;
   }
 }
